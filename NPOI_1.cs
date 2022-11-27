@@ -11,8 +11,8 @@ using System.IO;
 #endregion
 
 #Main Function
-		public void Main()
-		{
+public void Main()
+	{
             // Excel file path and name
             var filename = @"Path..\ExcelFileName.xlsx";
             //Load file
@@ -40,4 +40,4 @@ using System.IO;
             book.Close();
 
             Dts.TaskResult = (int)ScriptResults.Success;
-		}
+	}
